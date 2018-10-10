@@ -1,0 +1,15 @@
+{
+  "name": "fressian-wasm-quick-start",
+  "version": "1.0.0",
+  "description": "a fressian for WebAssembly demo",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/pkpkpk/fressian-wasm-quick-start",
+  "author": "pk",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.3"
+  }
+}

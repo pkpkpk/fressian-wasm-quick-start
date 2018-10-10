@@ -1,0 +1,5 @@
+^{:launch-node false
+  :launch-js ["npm" "start"]}
+
+{:main app.core
+ :target :nodejs}

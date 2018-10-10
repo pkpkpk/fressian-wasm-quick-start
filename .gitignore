@@ -1,0 +1,12 @@
+pom.xml
+*jar
+/classes/
+/out/
+/target/
+/node_modules/
+.~lock.*
+.cpcache/*
+.lein*
+.nrepl*
+*.asc
+rust/*/target/*
