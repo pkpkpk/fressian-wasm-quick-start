@@ -35,7 +35,11 @@ Once it has fired up..
 ;; ...wait while rust compiles the demo app. Devtools should give you pretty green message when it's ready.
 
 (echo ["hello" "wasm"]) ;=> [nil ["hello" "wasm"]]
+
+
 ```
+
+<hr>
 
 ## fressian-wasm
 
