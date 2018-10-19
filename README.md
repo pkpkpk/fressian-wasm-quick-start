@@ -18,6 +18,8 @@ Run `$rustup update` periodically to update the toolchain.
 
 See [cargo-cljs][cargo-cljs] for more details.
 
+### Install and run the app
+
 ```bash
 $ npm install
 $ clj -A:build-dev
@@ -30,7 +32,7 @@ Once it has fired up..
 
 (build)
 
-;; let rust compile the demo app
+;; ...wait while rust compiles the demo app. Devtools should give you pretty green message when it's ready.
 
 (echo ["hello" "wasm"]) ;=> [nil ["hello" "wasm"]]
 ```
