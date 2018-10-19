@@ -1,5 +1,23 @@
 # fressian-wasm-quick-start
 
+
+### Setup Rust
+
+1) [Install Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+
+2) Install the wasm toolchain
+
+``` bash
+$ rustup default nightly
+$ rustup update
+$ rustup component add wasm32-unknown-unknown --toolchain nightly
+$ cargo install --git https://github.com/alexcrichton/wasm-gc
+```
+
+Run `$rustup update` periodically to update the toolchain.
+
+See [cargo-cljs][cargo-cljs] for more details.
+
 ```bash
 $ npm install
 $ clj -A:build-dev
